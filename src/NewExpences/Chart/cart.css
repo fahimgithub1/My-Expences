@@ -1,0 +1,44 @@
+.chart{
+    background-color: white;
+    margin: auto;
+    color: black;
+    /* width: 95%; */
+    /* height: 50px; */
+    padding: 16px 16px;
+    border-radius: 12px;
+    margin-bottom: .8rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line{
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.chart_inner{
+    width: 13px;
+    height: 110px;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 35px;
+    /* margin: auto; */
+    margin-right: 1.2rem;
+    margin-bottom: .5rem;
+    background-color: rgb(128, 128, 128);
+    transform: rotate(180deg);
+}
+
+.chart_fill{
+    border-radius: 35px;
+    /* position: absolute; */
+    /* bottom: 0; */
+    right: 0;
+    /* justify-items: end; */
+    background-color: red;
+}
+
+.chart_lavel{
+    font-weight: bold;
+    font-size: 12px;
+}

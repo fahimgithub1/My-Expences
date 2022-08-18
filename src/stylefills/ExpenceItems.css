@@ -1,0 +1,136 @@
+.Expences_section{
+    width: 71%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: rgb(30, 30, 30);
+    max-width: 900px;
+}
+
+.parenatexpentdiv{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid rgb(31, 31, 31,.4);
+    color: aliceblue;
+    background-color: rgb(109, 109, 109);
+    padding: 12px;
+    margin-bottom: .5rem;
+}
+
+.datediv{
+    /* flex-basis: 10%; */
+    width: 80px;
+    font-weight: 500;
+    border: 2px solid rgb(203, 203, 203,.6);
+    border-radius: 18px;
+    padding: 1.2rem;
+    background-color: rgb(36, 36, 36);
+    box-shadow: inset; 
+    margin-right: .7rem;
+    /* box-shadow: 2px .9px rgb(33, 31, 31,.5); */
+}
+
+.dates{
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.n2ddiv{
+    display: flex;
+    width: 83%;
+}
+
+.titlediv{
+    flex-basis: 80%;
+    margin-top: 5px;
+    margin-left: 3px;
+    /* margin: auto; */
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.titlediv > h1{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /* height: auto; */
+}
+
+.pricediv{
+    margin: auto;
+    flex-basis: 20%;
+    position: left;
+    border-radius: 17px;
+    padding: 12px;
+    background-color: rgb(60, 3, 79);
+    border: 2px solid rgb(181, 176, 176,.7);
+    height: 30px;
+}
+
+.pricediv > h2{
+    margin: 0;
+    padding: 0;
+}
+
+.filter_div{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.yers_select{
+    background-color: white;
+    height: 34px;
+    width: 100px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: .7rem;
+    font-weight: bold;
+}
+
+.noData{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media  only screen and (max-width: 1229px) {
+    
+        .n2ddiv{
+            display: flex;
+            width: 80%;
+        }
+}
+
+@media  only screen and (max-width: 1055px) {
+    
+    .n2ddiv{
+        width: 75%;
+    }
+}
+
+@media  only screen and (max-width: 857px) {
+    
+    .n2ddiv{
+        width: 70%;
+    }
+}
+
+@media  only screen and (max-width: 725px) {
+    
+    .n2ddiv{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 496px) {
+    .Expences_section{
+        width: 98%;
+    }
+}

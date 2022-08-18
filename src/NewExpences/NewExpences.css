@@ -1,0 +1,65 @@
+.newexpencesfrom{
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    background-color: rgb(21, 83, 217);
+    padding: 20px;
+    margin-bottom: 1.5rem;
+    max-width: 900px;
+}
+
+.from{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titel{
+    margin-right: 1rem;
+}
+
+.input{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 300px;
+    margin-top: .3rem;
+    margin-bottom: .5rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.NewExpence__action{
+    margin-top: 1rem;
+    margin: auto;
+    position: relative;
+    height: 60px;
+}
+
+.NewExpence__action button{
+    position: absolute;
+    right: 0;
+    height: 60px;
+    padding: 20px 30px;
+    color: wheat;
+    font-size: 16px;
+    border: 1.5px solid rgb(98, 98, 98);
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(27, 7, 66);
+}
+
+@media only screen and (max-width: 496px) {
+    .newexpencesfrom{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .input{
+        height: 30px;
+        width: 150px;
+        margin-left: .5rem;
+    }
+}
